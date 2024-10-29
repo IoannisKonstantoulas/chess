@@ -32,6 +32,7 @@ public class main {
             }
             if (command.equals("new")) {
                 board = new Board(false);
+                continue;
             }
             if (command.equals("help")) {
                 System.out.println("===========================");
